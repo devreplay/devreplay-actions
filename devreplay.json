@@ -1,5 +1,9 @@
 [
   {
     "extends": ["typescript"]
+  },
+  {
+    "condition": ["core"],
+    "consequent": ["wait"]
   }
 ]
