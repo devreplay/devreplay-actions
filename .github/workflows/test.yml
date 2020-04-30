@@ -12,6 +12,16 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: npm install
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "13.x"
+      - run: npm ci
+      - name: Run eslint
+        run: ./node_modules/.bin/eslint -c ./.eslintrc.js src/*.ts
   devreplay:
     runs-on: ubuntu-latest
     steps:
