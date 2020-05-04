@@ -61,6 +61,7 @@
     ],
     "consequent": [
       "setOutput"
-    ]
+    ],
+    "severity": "Error"
   }
 ]
