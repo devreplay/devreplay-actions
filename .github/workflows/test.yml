@@ -9,10 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm install -g devreplay
+      - run: npm install devreplay
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - run: npm ci
       - name: Run devreplay
         run: devreplay --dir ./src devreplay.json
