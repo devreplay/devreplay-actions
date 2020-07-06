@@ -13,5 +13,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+      - run: echo "::add-matcher::devreplay-match.json"   
       - name: Run devreplay
-        run: devreplay --dir ./src devreplay.json
+        run: node_modules/.bin/devreplay --dir ./src devreplay.json
