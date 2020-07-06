@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://github.com/actions/devreplay-action/actions"><img alt="devreplay-action status" src="https://github.com/actions/devreplay-action/workflows/build-test/badge.svg"></a>
+  <a href="https://github.com/devreplay/devreplay-actions/actions"><img alt="devreplay-action status" src="https://github.com/devreplay/devreplay-actions/workflows/build-test/badge.svg"></a>
 </p>
 
-# Create a JavaScript Action using TypeScript
+# DevReplay Acrion
 
 Use this template to bootstrap the creation of a JavaScript action.:rocket:
 
