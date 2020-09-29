@@ -23,24 +23,25 @@
   "author": "DevReplay",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.4",
-    "devreplay": "^1.4.5"
+    "@actions/core": "^1.2.6",
+    "devreplay": "^1.5.0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.3",
-    "@types/node": "^13.13.12",
-    "@typescript-eslint/eslint-plugin": "^3.5.0",
-    "@typescript-eslint/parser": "^3.5.0",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.2",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
     "@zeit/ncc": "^0.22.3",
-    "eslint": "^7.4.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsdoc": "^28.6.1",
+    "eslint": "^7.10.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.6.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "jest": "^26.1.0",
-    "jest-circus": "^26.1.0",
+    "jest": "^26.4.2",
+    "jest-circus": "^26.4.2",
     "js-yaml": "^3.14.0",
-    "ts-jest": "^26.1.1",
-    "typescript": "^3.9.6"
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.0.3",
+    "zenlint": "^0.1.9"
   }
 }
