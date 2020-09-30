@@ -42,6 +42,6 @@
     "js-yaml": "^3.14.0",
     "ts-jest": "^26.4.0",
     "typescript": "^4.0.3",
-    "zenlint": "^0.1.9"
+    "zenlint": "^0.1.11"
   }
 }
