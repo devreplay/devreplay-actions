@@ -5,9 +5,10 @@
             "owner": "zenlint",
             "pattern": [
                 {
-                    "regexp": "^(warning|error)\\s+((.+))\\sis\\s[available|ignored].+",
+                    "regexp": "^(warning|error)\\s+((.+)\\sis\\s[available|ignored].+)",
                     "severity": 1,
-                    "message": 2
+                    "message": 2,
+                    "code": 3
                 }
             ]
         }
