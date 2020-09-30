@@ -5,7 +5,7 @@
             "owner": "zenlint",
             "pattern": [
                 {
-                    "regexp": "^(warning|error)\\s+((Available|Ignored)\\s+(.+))",
+                    "regexp": "^(warning|error)\\s+((.+))\\sis\\s[available|ignored].+",
                     "severity": 1,
                     "message": 2
                 }
