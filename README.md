@@ -2,6 +2,26 @@
   <a href="https://github.com/devreplay/devreplay-actions/actions"><img alt="devreplay-action status" src="https://github.com/devreplay/devreplay-actions/workflows/build-test/badge.svg"></a>
 </p>
 
+
+> :warning: This project stoped the maintain. Please use following template to use devereplay on the `github/workflows/devreplay.yml`
+
+```github/workflows/devreplay.yml
+name: Devreplay
+on: [push, pull_request]
+jobs:
+  devreplay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14.x"
+      - run: npm install -g devreplay
+      - name: Run devreplay
+        run: devreplay ./ .devreplay.json
+```
+
+
 # DevReplay Acrion
 
 Use this template to bootstrap the creation of a JavaScript action.:rocket:
