@@ -1,4 +1,4 @@
-import * as core from '@actions/core';
+import { * as core } from '@actions/core';
 import * as path from 'path';
 
 async function run(): Promise<void> {
