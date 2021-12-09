@@ -7,6 +7,7 @@ async function run(): Promise<void> {
     console.log(`##[add-matcher]${path.join(matchersPath, 'devreplay-match.json')}`);
   } catch (error) {
     core.setFailed(error.message);
+    console.log('hello')
   }
 }
 
